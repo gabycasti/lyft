@@ -1,3 +1,598 @@
 /*
  * Estilos de tu proyecto
  */
+
+/*+++++++++++++++ BODY +++++++++++++++++*/
+body {
+	padding: 0;
+	margin: 0 auto;
+	background: url(../assets/images/hero.gif) no-repeat;
+ 	background-size:100%;
+ 	width: 100%;
+ 	height:800px;
+ 	background-position-y: -115px;
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #18BC9C;
+}
+ 
+.sing{
+	color: #5E509D;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+.good{
+	color: #5E509D;
+	text-decoration: none;
+}
+
+/* Transparencia de la imagen de fondo */
+.complemento {
+    width: 100%;
+	height: 200px;
+    background: linear-gradient(transparent,#76278f);
+    margin-top: -115px;
+    z-index: 1000;
+
+}
+
+/* Complemento de la imagen luego de la transparencia de fondo de la seccion 1 */
+.seccion1 {
+	width: 100%;
+	height: 600px;
+	margin-top:-25px;
+	background: linear-gradient(#76278f,#2b1e66);
+}
+ 	 	 	
+/*+++++++++++++++ MENU +++++++++++++++++*/
+.menu {
+	width: 100%;
+	top: 0;
+ 	position:fixed;
+ }
+
+/* Logo dentro al lado del  menu */
+.container .logo img {
+ 	width: 63px;
+ 	height: 45px;
+ 	padding-left: 80px;
+ 	padding-top: 40px;
+ 	 
+ }
+
+
+ /* Menu de la pagina */
+ .menu .opcion  ul{
+ 	margin-top: -60px;
+ 	margin-right: 160px;
+ }
+
+/*Contenedor del listado del menu */
+ .ul{
+	
+	float: right;
+}
+
+/* Opciones del Menu */
+ .li{
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+	list-style: none;
+	color: #fff;
+	padding-top: 24px;
+	padding-right:40px;
+	font-weight: 300;
+	display: inline-block;
+}
+
+/* cuadro en la ultima opcion del menu  */
+.li:last-child { 
+  
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 54px;	
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+/*+++++++++++++++ FORMULARIO +++++++++++++++++*/
+
+/* Contenedor que almacena el formulario  */
+.contenedor_formulario {
+    margin-left: 770px;
+    width: 580px;
+    height: 435px;
+    background: white;
+    margin-top:110px;
+	
+}
+
+/*Medidas del Formulario*/
+form {
+	width: 25%;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+/*Estilo titulo 1 del formulario  */
+form .titulo_1 {
+
+	font-family: 'Montserrat', sans-serif;
+	width: 350px;
+	padding-top: 60px;
+	font-weight: bold;
+	text-align: left;
+	font-size:2.5em;
+	color: #352384;
+	display: block;
+
+}
+
+/*Estilo titulo 2 del formulario  */
+form .titulo_2 {
+
+	font-family: 'Montserrat', sans-serif;
+	width: 350px;
+	margin-top: 15px;
+	text-align: left;
+	font-size:15px;
+	color: #352384;
+	display: block;
+
+}
+
+ /* Caja de texto del formulario */
+input[type=text] {
+	margin-bottom: 20px;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	color:#bfc7d9;
+	width: 450px;
+	height: 40px;
+	border-width: 0px 0px 1px 0px;
+	border-color:#352384;
+}
+
+/* Div contenedor de los botones del formulario */
+.botones {
+	width: 	450px;
+	height: 80px;
+	display: block;
+}
+
+/* Boton 1 del formulario*/
+.boton1[type=submit] {
+	margin-bottom: 20px;
+	margin-top: 15px;
+	width: 200px;
+	height:50px; 
+	border-width:1px;
+	border-radius: 7px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: white;
+	background:#FF00BF;
+	display: inline-block;
+}
+
+/* titulo 3 del formulario*/
+form .titulo_3{
+
+	font-family: 'Montserrat', sans-serif;
+	width: 150px;
+	margin-top:18px;
+	text-align: left;
+	padding-left: 10px;
+	font-size:16px;
+	color: #728099;
+	display: block;
+	display: inline-block;
+}
+
+/*Estilo titulo 4 del formulario  */
+form .titulo_4{
+
+	font-family: 'Montserrat', sans-serif;
+	width: 350px;
+	margin-top:15px;
+	text-align: left;
+	font-size:9px;
+	color: #352384;
+	display: block;
+
+}
+
+/*Estilo titulo 5 del formulario  */
+form .titulo_5{
+
+	font-family: 'Montserrat', sans-serif;
+	width: 350px;
+	margin-top:15px;
+	text-align: left;
+	font-size:9px;
+	color: #352384;
+	display: block;
+
+}
+/*+++++++++++++++ SECCION 1 +++++++++++++++++*/
+
+/* Contenedor Seccion 1 */
+.seccion1 {
+	display: block;
+}
+
+/* texto seccion 1*/
+.seccion1 .contenido { 
+	width: 460px;
+	height: 500px;
+	margin-left: 150px;
+	margin-top: -10px;
+	display: inline-block;
+}
+
+/* contenedor imagen 1*/
+.seccion1 .imagen {
+	width:100px;
+	height: 100px;
+	top: 10px;
+	display: inline-block;
+}
+
+/* imagen seccion1 */
+.seccion1 .imagen img {
+	margin-left: 140px;
+	width:500px;
+	
+}
+ /*Titulos principales seccion 1 */
+.contenido .cont_titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	font-weight: 500;
+}
+
+/*Titulos secunadrios seccion 1 */
+.contenido .cont_texto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 20px;
+	font-weight: 300;
+
+}
+
+/*+++++++++++++++ SECCION 2 +++++++++++++++++*/
+
+/* Inicio de estilos de la Seccion 2*/
+
+/* Contenedor Seccion 2 */
+
+.seccion2 {	
+	
+}
+
+.parrafo_seccion2 {
+	width: 370px;
+	height: 100px;
+	display: inline-block;
+	
+}
+
+.titulo1_seccion2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 60px;
+	color: #000;
+	font-weight: 500;
+}
+
+.titulo2_seccion2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	top: 5px;
+	padding-left: 60px;
+	color: #000;
+	font-weight: 600;
+}
+
+
+.titulo3_seccion2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-left: 60px;
+	color: #000;
+	font-weight: 500;
+}
+
+.video_seccion2 {
+	width: 900px;
+	height: 400px;
+	float:right;
+}
+
+/*+++++++++++++++ SECCION 3 +++++++++++++++++*/
+
+.video_seccion3 {
+	width: 900px;
+	height: 400px;
+	display: inline-block;
+	
+}
+
+.parrafo_seccion3 {
+	width: 380px;
+	height: 100px;
+	float:right;
+}
+
+.titulo1_seccion3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-right: 60px;
+	color: #000;
+	font-weight: 500;
+}
+
+.titulo2_seccion3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	top: 5px;
+	padding-right: 60px;
+	color: #000;
+	font-weight: 600;
+}
+
+
+.titulo3_seccion3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-right: 60px;
+	color: #000;
+	font-weight: 500;
+}
+
+/*+++++++++++++++ SECCION 4 +++++++++++++++++*/
+
+
+.seccion4 {
+	margin-top: -5px;
+}
+
+.parrafo_seccion4 {
+	width: 370px;
+	height: 400px;
+	display: inline-block;
+	
+}
+
+.titulo1_seccion4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 60px;
+	color: #000;
+	font-weight: 500;
+}
+
+.titulo2_seccion4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	top: 5px;
+	padding-left: 60px;
+	color: #000;
+	font-weight: 600;
+}
+
+
+.titulo3_seccion4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-left: 60px;
+	color: #000;
+	font-weight: 500;
+}
+
+.video_seccion4 {
+	width: 900px;
+	height: 400px;
+	float:right;
+}
+
+
+
+/*+++++++++++++++ FOOTER +++++++++++++++++*/
+
+/*Medidas del Footer*/
+
+.footer {
+	width: 100%;
+	height: 500px;
+	padding-top: 40px;
+	background: #333447;
+}
+
+
+/*Estilos link del Footer*/
+
+.opli  a {
+	text-decoration: none;
+	color:#fff;
+}
+
+.opli  a:hover {
+	text-decoration: underline;
+	color:#FF00BF;
+}
+
+
+/*Estilos para que los link del Footer se alinien*/
+.encabezado_footer {
+	display: flex;
+}
+
+/*Estilos de fuente encabezado del footer*/
+.encabezado_footer .opli{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	list-style: none;
+	padding-top: 40px;
+	color: #fff;
+	font-weight: 300;
+	display: block;
+
+}
+
+/*Medidas de los menus del Footer*/
+.encabezado_footer .menu1 .opli {
+	padding-left: 70px;
+	padding-right: 100px;
+}
+
+.encabezado_footer .menu2 .opli {
+	padding-right: 100px;
+}
+
+.encabezado_footer .menu3 .opli {
+	padding-right: 200px;
+}
+
+.menu4 .opli img {
+	width: 140px;
+	height: 50px;
+}
+
+/*Estilos de los titulos de los menus del footer*/
+
+.encabezado_footer .menu1 h4 {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 110px;
+	font-size:17px;
+	color: #fff;
+
+}
+
+.encabezado_footer .menu2 h4 {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 35px;
+	font-size:17px;
+	color: #fff;
+
+}
+
+.encabezado_footer .menu3 h4 {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 35px;
+	font-size:17px;
+	color: #fff;
+
+}
+
+.encabezado_footer .menu4 h4 {
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 70px;
+	font-size:17px;
+	color: #fff;
+
+}
+
+/*Alinear los iconos del footer facebook instagram twitter*/
+.pie_footer .list-inline
+{
+	text-align: center;
+    width: 100%;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.list-inline-item {
+	padding-left: 65px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    width: 300px;
+    margin-left: -18px;
+}
+
+/*Estilos de los btn del footer*/
+.btn-social {
+    font-size: 15px;
+    line-height: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+.btn-outline {
+    font-size: 15px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    border: solid 2px #fff;
+    background: 0 0;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.btn-outline {
+    font-size: 20px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    border: solid 2px #fff;
+    background: 0 0;
+}
+
+/*Medida del hr*/
+.hr {
+	width: 700px;
+}
+
+/*Estilos del texto del pie del footer*/
+.textoPie {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding-left: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
